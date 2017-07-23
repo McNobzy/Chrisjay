@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home | Chrisjay Collections</title>
+    <meta name="viewport" content="width:device-width, initial-scale:1.0;">
+
+    <style>
+    html{
+      margin:0;
+      padding:0;
+      border:0;
+    }
+    body{
+      background: #EEE;
+      font:14px/20px Arial, sans-serif;
+      margin:0;
+    }
+    #header{
+      background: #24337A;
+      opacity: 0.90;
+      position:fixed;
+      width:100%;
+      top:0;
+      left:0;
+      z-index:100;
+      height:90px;
+    }
+    #header #title{
+      float:left;
+      font-family: "Century Gothic";
+      text-decoration: none;
+      color: #789;
+      font-weight: bold;
+      font-size: 40px;
+      margin-top:25px;
+      margin-left:5px;
+    }
+
+    #header #menu{
+      margin-top:30px;
+      float:right;
+    }
+    #header #menu .mitem{
+      text-decoration: none;
+      font-weight:bold;
+      font-family: "Comic Sans MS";
+      text-transform: uppercase;
+      padding:15px;
+      color:#FFF;
+      font-size:18px;
+    }
+
+    #header #menu .mitem:hover{
+      color: #24337A;
+      background: #FFF;
+    }
+
+    #main{
+      padding: 140px;
+      text-align:center;
+      margin:0 auto;
+      margin-top:100px;
+      border: 1px solid black;
+      opacity: 0.95;
+    }
+
+    #main article h1{
+      font-size: 70px;
+      font-family: "Century Gothic";
+      letter-spacing: 0.7px;
+    }
+    form {
+      margin-left: 350px;
+    }
+
+    #form form input{
+      margin-top: 15px;
+      width: 346px;
+      height:40px;
+    }
+
+    #form form button{
+      margin-top:5px;
+      height: 46.5px;
+      width: 350px;
+      text-transform: uppercase;
+      background: #24337a;
+      border: 1px solid black;
+      letter-spacing: 5px;
+      font-size:15px;
+      color:#fff;
+      opacity:0.90;
+    }
+
+
+    </style>
+  </head>
+
+  <body>
+    <header id="header">
+      <a href="#" id="title">Chrisjay</a>
+
+      <nav id="menu" >
+      <a href="#" class="mitem" style="margin-left:65px">Home</a>
+      <a href="#" class="mitem">Contact</a>
+      <a href="#" class="mitem">Products</a>
+      <a href="#" class="mitem">About</a>
+      </nav>
+      </header>
+
+      <section id="main">
+      <article>
+      <h1 onclick="document.getElementById('desc').innerHTML='We make all types of accessories, yes, and I mean all types. We customise your accessories to give it a cultural look if you want. Browse through the website for our products and feed your eyes.'">Chrisjay </h1>
+      <h1>Collections</h1>
+      <p id="desc"></p>
+      </article>
+      </section>
+      <section id="form">
+      <form>
+      <input type="email" placeholder="Enter your email address ..." id="e-mail">
+      <button type="submit">Subscribe</button>
+      </form>
+      </section>
+
+      <section>
+      <h1>Meet the founders</h1>
+      <article>
+      <h2></h2>
+      </article>
+      </section>
+
+    
+  </body>
+</html>
